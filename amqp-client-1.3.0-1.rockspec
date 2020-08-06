@@ -1,7 +1,7 @@
 package = "amqp-client"
 version = "1.3.0-1"
 source = {
-   url = "git://github.com/gsdenys/amqp-client.git",
+   url = "git://github.com/Fanskiy/amqp-client.git",
    branch = "v1.3.0-1"
 }
 description = {
@@ -12,7 +12,7 @@ description = {
       
       Developed by: Meng Zhang, Aleksey Konovkin, 4mig4 and Denys Santos.
    ]],
-   homepage = "https://github.com/gsdenys/amqp-client",
+   homepage = "https://github.com/FanskiY/amqp-client",
    maintainer = "Denys G. Santos <gsdenys@gmail.com>",
    license = "Apache 2.0"
 }
