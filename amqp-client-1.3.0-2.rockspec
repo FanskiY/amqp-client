@@ -13,7 +13,7 @@ description = {
       Developed by: Meng Zhang, Aleksey Konovkin, 4mig4 and Denys Santos.
    ]],
    homepage = "https://github.com/FanskiY/amqp-client",
-   maintainer = "Denys G. Santos <gsdenys@gmail.com>",
+   maintainer = "FanskiY <s.nurmyshev@gmail.com>",
    license = "Apache 2.0"
 }
 dependencies = {
