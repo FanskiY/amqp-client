@@ -8,6 +8,7 @@ local c = require ('amqp.consts')
 local frame = require ('amqp.frame')
 local logger = require ('amqp.logger')
 local bit = require('bit')
+local fiber = require('fiber')
 
 local band = bit.band
 local bor = bit.bor
@@ -718,6 +719,7 @@ function amqp:consume_loop(callback)
         logger.dbg("[heartbeat]","pong sent. [ts]: ", hb.last)
       end
     end
+  fiber.yield()
   end
 
   self:teardown()
